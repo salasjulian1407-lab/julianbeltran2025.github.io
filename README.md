@@ -35,13 +35,38 @@ Aquí un programa simple que pide tu nombre y edad, y te da un mensaje personali
 
 ```python
 # Programa: Saludo personalizado
-nombre = input("¿Cuál es tu nombre? ")
-edad = int(input("¿Cuántos años tienes? "))
+nombre = input("¿Cuál es tu nombre ") julian
+edad = int(input("¿Cuántos años tienes? ")) 19
 
 # Calculamos el año de nacimiento aproximado
 año_actual = 2025
-año_nacimiento = año_actual - 19
+año_nacimiento = año_actual - edad
 
 mensaje = f"¡Hola, {julian}! Naciste alrededor del año {año_nacimiento}."
 print(mensaje)
-print(f"En 10 años tendrás {19 + 10} años.")
+print(f"En 10 años tendrás {edad + 10} años.")
+¡Hola, julian! Naciste alrededor del año 2006.
+En 10 años tendrás 29 años.
+
+
+
+Mi reflexión personal
+Este ejercicio me ayudó a entender cómo un simple archivo de texto (README.md) puede convertirse en una página web real y pública. Me sorprendió lo fácil que es usar GitHub no solo para código, sino para documentar aprendizaje.
+Aprendí que:
+
+Las variables son como etiquetas para datos que cambian.
+Usar input() e int() juntos requiere cuidado con los tipos.
+El formato Markdown es poderoso y profesional para documentar.
+
+Me motivó pensar en usar esta página como un portafolio vivo de mis proyectos futuros.
+
+Referencias de IA
+Usé inteligencia artificial de forma crítica y transparente para mejorar mi trabajo:
+
+Grok (xAI): Me guió paso a paso en la creación del repositorio, activación de GitHub Pages y redacción estructurada del contenido.
+→ Conversación: https://grok.x.ai/share/xxx (reemplaza con tu enlace real si usas Grok)
+GitHub Copilot: Sugirió el bloque de código Python con comentarios claros y el uso de f-strings.
+→ No guarda enlaces, pero fue usado en VS Code.
+
+
+Nota: Todo el texto fue revisado, entendido y adaptado por mí. La IA fue una herramienta de apoyo, no de reemplazo.
